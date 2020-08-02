@@ -140,6 +140,17 @@ img {
   color: #fff;
 }
 
+/* hide tab contents initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+  display: none;
+}
+
+.show {
+  display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner {
   display: grid;
   grid-template-columns: 2fr 1fr;
